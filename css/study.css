@@ -1,0 +1,270 @@
+body{
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    background-color: #202125;
+    padding: 0px;
+    margin: 0px;
+    min-width: 1200px;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header{
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+}
+
+.shapka{
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.shapka a{
+    margin-right: 60px;
+}
+
+.menu{
+    display: flex;
+    list-style-type: none;
+    padding-top: 18px
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #A8A8A8;
+    margin-right: 60px;
+}
+
+.menu li a:hover{
+    color: #FF4343;
+}
+
+.maximizer{
+    height: 600px;
+    transition: 1s;
+}
+
+.maximizer img{
+    object-fit: cover;
+}
+
+.carousel-inner{
+    filter: brightness(85%);
+    transition: 1s;
+}
+.carousel-inner:hover{
+    filter:brightness(100%);
+}
+
+.mainPicture{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.mainPicture img{
+    align-items: center;
+    object-fit: cover;
+}
+
+.blocks{
+    margin-top: 50px;
+    display: flex;
+}
+.mainBlock{
+    width: 570px;
+    height: 858px;
+    margin-right: 30px;
+    background-color: aquamarine;
+}
+
+.mainBlockName{
+    background-color: black;
+    width: 570px;
+    height: 53px;
+    font-size: 36px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+    color: #FF4343;
+    text-align: center;
+}
+
+.picture{
+    width: 100%;
+    height: 100%;
+    filter: brightness(80%);
+    position: absolute;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.blockImage{
+    width: 570px;
+    height: 805px;
+    position: relative;
+    overflow: hidden;
+}
+.blockImage:hover .picture{
+    transform: scale(1.1);
+    filter: brightness(100%);
+}
+
+.fontToBeautiful{
+    color:rgb(255, 255, 255);
+}
+
+.fontToBeautiful h5{
+    font-size: 42px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+.fontToBeautiful p{
+    font-size: 24px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+.completedAnime{
+    height: 53px;
+    width: 100%;
+    margin-top: 50px;
+    background-color: #1C1C1C;
+}
+
+.mt{
+    padding-top:6px;
+}
+
+.completedAnime h2{
+    text-align: center;
+    margin-top: 10px;
+    color: #FF4343;
+    font-size: 36px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.blockOfTwo{
+    margin-top: 50px;
+    display: flex;
+}
+
+.blockCompleted{
+    display: flex;
+    width: 570px;
+    height: 300px;
+    margin-right: 30px;
+    background-color: #2a2c31;
+}
+
+.imageBlock{
+    position: relative;
+    overflow: hidden;
+    width: 200px;   
+    height: 300px;
+    display:flex;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.imageBlock img{
+    transition: 1s;
+    filter: brightness(85%);
+    object-fit: cover;
+}
+
+.imageBlock img:hover{
+    filter: brightness(100%);
+    transform: scale(1.1);
+}
+.textBlock{
+    color:white;
+    margin: 7px 7px 0px 7px;
+    width: 356px;
+    height: 300px;
+}
+
+.textBlock a{
+    text-decoration: none;
+    color: white;
+}
+
+.textBlock a h2{
+    font-size: 24px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.textBlock p{
+    font-size: 12px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+}
+
+footer{
+    width: 100%;
+    background-color: #2a2c31;
+}
+
+.lo{
+    margin: 5px 20px 5px 0px;
+    height: 80px;
+    width: 80px;
+}
+
+.theEnd{
+    align-items: center;
+    display: flex;
+}   
+
+.theEnd h2{
+    margin: 0px 20px;
+    color:white;
+    font-size: 24px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.aboutAnim{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    background-color: #2a2c31;
+}
+
+.animImage{
+    width: 300px;
+    height: 450px;
+    display:flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.animText{
+    color: white;
+    width: 100%;
+    margin: 7px;
+}
+.animText h2{
+    font-size: 32px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.animText p{
+    font-size: 14px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    font-weight: 600px;
+}
+
+.trailer{
+    margin-top: 50px;
+}
